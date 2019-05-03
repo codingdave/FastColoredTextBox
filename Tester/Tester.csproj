@@ -514,6 +514,7 @@
     <Content Include="htmlDesc.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\background_image.png" />
     <Content Include="TabStrip.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

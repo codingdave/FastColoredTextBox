@@ -107,8 +107,8 @@ namespace Tester
 
         private void BuildBackBrush()
         {
-            fctb.BackBrush = new LinearGradientBrush(fctb.ClientRectangle, Color.White, Color.Silver,
-                                                     LinearGradientMode.Vertical);
+            //fctb.BackBrush = new LinearGradientBrush(fctb.ClientRectangle, Color.White, Color.Silver,
+            //                                         LinearGradientMode.Vertical);
         }
     }
 }

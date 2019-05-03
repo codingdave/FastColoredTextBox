@@ -119,8 +119,12 @@
         '\'',
         '\''};
             this.fctb.AutoIndent = false;
-            this.fctb.AutoScrollMinSize = new System.Drawing.Size(0, 105);
+            this.fctb.AutoIndentCharsPatterns = "^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>[^;=]+);\r\n^\\s*(case|default)\\s*[^:]*" +
+    "(?<range>:)\\s*(?<range>[^;]+);";
+            this.fctb.AutoScrollMinSize = new System.Drawing.Size(586, 90);
             this.fctb.BackBrush = null;
+            this.fctb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("fctb.BackgroundImage")));
+            this.fctb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.fctb.CharHeight = 15;
             this.fctb.CharWidth = 7;
             this.fctb.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -138,10 +142,9 @@
             this.fctb.RightBracket = ')';
             this.fctb.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.fctb.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("fctb.ServiceColors")));
-            this.fctb.Size = new System.Drawing.Size(447, 262);
+            this.fctb.Size = new System.Drawing.Size(711, 490);
             this.fctb.TabIndex = 0;
             this.fctb.Text = resources.GetString("fctb.Text");
-            this.fctb.WordWrap = true;
             this.fctb.Zoom = 100;
             this.fctb.SelectionChangedDelayed += new System.EventHandler(this.fctb_SelectionChangedDelayed);
             this.fctb.VisualMarkerClick += new System.EventHandler<FastColoredTextBoxNS.VisualMarkerEventArgs>(this.fctb_VisualMarkerClick);
@@ -152,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(447, 262);
+            this.ClientSize = new System.Drawing.Size(711, 490);
             this.Controls.Add(this.fctb);
             this.Name = "MarkerToolSample";
             this.Text = "MarkerTool Sample";

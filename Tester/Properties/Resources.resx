@@ -173,4 +173,7 @@
   <data name="unsure" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unsure.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
