@@ -125,6 +125,12 @@
     <Compile Include="DocumentMapSample.Designer.cs">
       <DependentUpon>DocumentMapSample.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReplaceTextIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReplaceTextIssue.Designer.cs">
+      <DependentUpon>ReplaceTextIssue.cs</DependentUpon>
+    </Compile>
     <Compile Include="RulerSample.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -342,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DocumentMapSample.resx">
       <DependentUpon>DocumentMapSample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReplaceTextIssue.resx">
+      <DependentUpon>ReplaceTextIssue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RulerSample.resx">
       <DependentUpon>RulerSample.cs</DependentUpon>
