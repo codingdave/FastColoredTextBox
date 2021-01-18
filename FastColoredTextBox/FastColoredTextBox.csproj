@@ -1,74 +1,18 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <!-- <TargetFrameworks>net472-windows;net5.0-windows</TargetFrameworks> -->
+    <TargetFramework>net472-windows</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
     <OutputType>Library</OutputType>
-    <RootNamespace>FastColoredTextBoxNS</RootNamespace>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    <UseWindowsForms>true</UseWindowsForms>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>    
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FCTB_key.snk</AssemblyOriginatorKeyFile>
     <Platforms>x64</Platforms>
+    <Platform>x64</Platform>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="AutocompleteMenu.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="DocumentMap.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="GoToForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="GoToForm.Designer.cs">
-      <DependentUpon>GoToForm.cs</DependentUpon>
-    </Compile>
-    <Compile Update="HotkeysEditorForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="HotkeysEditorForm.Designer.cs">
-      <DependentUpon>HotkeysEditorForm.cs</DependentUpon>
-    </Compile>
-    <Compile Update="Ruler.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Ruler.Designer.cs">
-      <DependentUpon>Ruler.cs</DependentUpon>
-    </Compile>
-    <Compile Update="ReplaceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="ReplaceForm.Designer.cs">
-      <DependentUpon>ReplaceForm.cs</DependentUpon>
-    </Compile>
-    <Compile Update="FastColoredTextBox.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="FindForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FindForm.Designer.cs">
-      <DependentUpon>FindForm.cs</DependentUpon>
-    </Compile>
-    <Compile Update="UnfocusablePanel.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="FastColoredTextBox.resx">
-      <DependentUpon>FastColoredTextBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="FindForm.resx">
-      <DependentUpon>FindForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="GoToForm.resx">
-      <DependentUpon>GoToForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="HotkeysEditorForm.resx">
-      <DependentUpon>HotkeysEditorForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Update="ReplaceForm.resx">
-      <DependentUpon>ReplaceForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Design.dll" />    
   </ItemGroup>
 </Project>
