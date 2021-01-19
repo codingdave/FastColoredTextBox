@@ -1,16 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <!-- <TargetFrameworks>net472-windows;net5.0-windows</TargetFrameworks> -->
     <TargetFrameworks>net472-windows</TargetFrameworks>
-    <!-- <TargetFramework>net472-windows</TargetFramework> -->
 	  <UseWindowsForms>true</UseWindowsForms>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>    
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FCTB_key.snk</AssemblyOriginatorKeyFile>
     <Platforms>x64</Platforms>
-    <Platform>x64</Platform>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Windows.Forms" />
