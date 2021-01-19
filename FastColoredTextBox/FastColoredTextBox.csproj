@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <!-- <TargetFrameworks>net472-windows;net5.0-windows</TargetFrameworks> -->
-    <TargetFramework>net472-windows</TargetFramework>
+    <TargetFrameworks>net472-windows</TargetFrameworks>
+    <!-- <TargetFramework>net472-windows</TargetFramework> -->
 	  <UseWindowsForms>true</UseWindowsForms>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>    
