@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <!-- Only here so that the default Directory.Build.props will not be used. -->
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+</Project>
