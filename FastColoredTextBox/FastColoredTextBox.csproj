@@ -8,6 +8,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>FCTB_key.snk</AssemblyOriginatorKeyFile>
     <Platforms>x64</Platforms>
+    <DisableAnalyzer>true</DisableAnalyzer>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Windows.Forms" />
